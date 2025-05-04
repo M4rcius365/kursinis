@@ -23,6 +23,7 @@ Use add_room() to register rooms.
 Use check_in_guest() and check_out_guest() for guest operations.
 
 Use provide_room_service() and provide_food() to deliver services to rooms.
+
 ------------------------------------------------------------------------------------------------------
 2. Body/Analysis
 
@@ -44,6 +45,7 @@ b. Composition and Design Patterns
 The HotelManager class uses composition to combine the responsibilities of room, guest, and service managers.
 
 A Facade pattern is applied via HotelManager, simplifying interaction with the system.
+
 ------------------------------------------------------------------------------------------------------
 3. Results and Summary
 
