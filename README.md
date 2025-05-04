@@ -60,12 +60,3 @@ This coursework successfully delivered a modular and testable Hotel Management S
 The result is a working program that applies SOLID principles, uses abstract classes and design patterns like Facade and Composition, and includes comprehensive unit testing with unittest and mock. The implementation strictly follows PEP8 coding conventions, ensuring code clarity and maintainability.
 
 Looking ahead, the system can be extended by adding features such as persistent data storage, web or GUI interfaces, dynamic pricing, reservation history, and integration with payment systems, making it suitable for real-world use in hospitality applications.
-
-
-
-
-
-
-The HotelManager class uses composition to combine the responsibilities of room, guest, and service managers.
-
-A Facade pattern is applied via HotelManager, simplifying interaction with the system.
