@@ -1,0 +1,5 @@
+101,StandardRoom,True,Alice
+102,SuiteRoom,True,Bob
+103,StandardRoom,False,
+104,SuiteRoom,False,
+105,StandardRoom,True,Charlie
