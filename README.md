@@ -52,7 +52,12 @@ A Facade pattern is applied via HotelManager, simplifying interaction with the s
 4) Challenges: use of terminals and proper file uploading.
 5) Extension possibilities: Integration with a file-based storage system or GUI interface, dynamic pricing, and online booking support.
 
+5. Conclusions
+This coursework successfully delivered a modular and testable Hotel Management System using object-oriented programming. The project achieved its goal of modeling real-world hotel operations through well-defined components such as room types, guest management, and service delivery.
 
+The result is a working program that applies SOLID principles, uses abstract classes and design patterns like Facade and Composition, and includes comprehensive unit testing with unittest and mock. The implementation strictly follows PEP8 coding conventions, ensuring code clarity and maintainability.
+
+Looking ahead, the system can be extended by adding features such as persistent data storage, web or GUI interfaces, dynamic pricing, reservation history, and integration with payment systems, making it suitable for real-world use in hospitality applications.
 
 
 
