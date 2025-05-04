@@ -23,7 +23,7 @@ Use add_room() to register rooms.
 Use check_in_guest() and check_out_guest() for guest operations.
 
 Use provide_room_service() and provide_food() to deliver services to rooms.
-
+------------------------------------------------------------------------------------------------------
 2. Body/Analysis
 
 a. Design Principles and Implementation
@@ -44,15 +44,17 @@ b. Composition and Design Patterns
 The HotelManager class uses composition to combine the responsibilities of room, guest, and service managers.
 
 A Facade pattern is applied via HotelManager, simplifying interaction with the system.
+------------------------------------------------------------------------------------------------------
+3. Results and Summary
 
-4. Results and Summary
 1) The hotel system was successfully implemented using abstraction, encapsulation, inheritance, and polymorphism.
 2) SOLID principles are observed; for instance, adding new service types does not require changes to existing code.
 3) Thorough test coverage is achieved with unittest and mock, covering all business logic including error handling.
 4) Challenges: use of terminals and proper file uploading.
 5) Extension possibilities: Integration with a file-based storage system or GUI interface, dynamic pricing, and online booking support.
+------------------------------------------------------------------------------------------------------
+4. Conclusions
 
-5. Conclusions
 This coursework successfully delivered a modular and testable Hotel Management System using object-oriented programming. The project achieved its goal of modeling real-world hotel operations through well-defined components such as room types, guest management, and service delivery.
 
 The result is a working program that applies SOLID principles, uses abstract classes and design patterns like Facade and Composition, and includes comprehensive unit testing with unittest and mock. The implementation strictly follows PEP8 coding conventions, ensuring code clarity and maintainability.
