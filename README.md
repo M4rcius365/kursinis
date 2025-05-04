@@ -26,7 +26,7 @@ Use provide_room_service() and provide_food() to deliver services to rooms.
 
 2. Body/Analysis
 
-Design Principles and Implementation
+a. Design Principles and Implementation
 This system applies SOLID principles:
 
 Single Responsibility Principle: Each class (e.g., RoomManager, GuestManager, ServiceManager) has one clear responsibility.
@@ -39,7 +39,25 @@ Interface Segregation Principle: Interfaces like Service are small and specific.
 
 Dependency Inversion Principle: HotelManager depends on abstractions like Room, Service.
 
-3. Composition and Design Patterns
+b. Composition and Design Patterns
+
+The HotelManager class uses composition to combine the responsibilities of room, guest, and service managers.
+
+A Facade pattern is applied via HotelManager, simplifying interaction with the system.
+
+4. Results and Summary
+1) The hotel system was successfully implemented using abstraction, encapsulation, inheritance, and polymorphism.
+2) SOLID principles are observed; for instance, adding new service types does not require changes to existing code.
+3) Thorough test coverage is achieved with unittest and mock, covering all business logic including error handling.
+4) Challenges: use of terminals and proper file uploading.
+5) Extension possibilities: Integration with a file-based storage system or GUI interface, dynamic pricing, and online booking support.
+
+
+
+
+
+
+
 
 The HotelManager class uses composition to combine the responsibilities of room, guest, and service managers.
 
